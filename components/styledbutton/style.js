@@ -14,7 +14,6 @@ const styles = StyleSheet.create({
         alignItems:'center'
     },
     text:{
-        color:'white',
         fontSize:15,
         fontWeight:'500',
         textTransform:'uppercase'

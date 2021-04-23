@@ -24,6 +24,15 @@ const styles = StyleSheet.create({
         height:'100%',
         resizeMode:'cover',
         position:'absolute',
+      },
+      buttoncontainer:{
+        position:'absolute',
+        bottom:40,
+        width:'100%'
+      },
+      tagcta:{
+        textDecorationLine:'underline',
+        
       }
       
 });

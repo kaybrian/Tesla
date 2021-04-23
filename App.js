@@ -8,7 +8,12 @@ export default function App() {
     <View style={styles.container}>
 
 
-      <Caritem />
+      <Caritem 
+        name={'Model 3'} 
+        tagline={'Order Online for'} 
+        taglinecta={'Touchless Delivery'}
+        image={require('./assets/images/Model3.jpeg')}
+      />
 
 
       <StatusBar style="auto" />

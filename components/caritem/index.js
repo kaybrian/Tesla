@@ -4,15 +4,20 @@ import styles from './styles';
 import Styledbutton from '../styledbutton/index';
 
 const Caritem = (props) => {
+    const {name, tagline, image, taglinecta} = props;
     return (
         <View style={styles.carContainer}>
-            <ImageBackground source={require('../../assets/images/ModelX.jpeg')}
+            <ImageBackground source={image}
             style={styles.image}
             />
             <View style={styles.titles}>
-                <Text style={styles.title}>Model S</Text>
-                <Text style={styles.subtitle}>Starting at $6800</Text>
+                <Text style={styles.title}>{name}</Text>
+                <Text style={styles.subtitle}>{tagline}{' '}
+                    <Text style={styles.tagcta}>{taglinecta}</Text>
+                </Text>
             </View>
+
+            <View style={styles.buttoncontainer}>
 
             <Styledbutton 
             type='primary'
@@ -30,6 +35,9 @@ const Caritem = (props) => {
             }
             />
             </View>
+                
+            </View>
+
     );
 }
 
