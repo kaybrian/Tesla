@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This is clone of the the official  website of Tesla ",
+    "githubUrl": "https://github.com/kaybrian/Tesla"
   }
 }
